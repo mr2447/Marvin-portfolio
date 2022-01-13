@@ -1,0 +1,270 @@
+body {
+  margin: 0;
+  font-family: 'EB Garamond SC', 'EB Garamond', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 90%;
+  padding: 50px 30px;
+}
+
+:root {
+  --primary: #8c54ff;
+  --secondary: #f3a847;
+  --tertiary: #b12704;
+  --light: #fafafa;
+  --dark: #000000;
+  --darker: #111111;
+  --error: rgb(228, 46, 1);
+  --spacing-one: calc(1rem * 0.5);
+  --spacing-two: calc(1rem);
+  --spacing-five: calc(2.5rem);
+  --palette-one: #606c38;
+  --palette-two: #283618;
+  --palette-three: #fefae0;
+  --pallette-four: #dda15e;
+  --pallette-five: #bc6c25;
+  --small-font-color: #4A4A4A;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+  background: var(--palette-three)
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  color: var( --small-font-color);
+  font-family: 'EB Garamond SC';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'EB Garamond SC', 'EB Garamond';
+  font-weight: 500;
+  margin: 5px 0;
+  line-height: 1.25;
+}
+
+h1 {
+  font-size: 2.25rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 1.1rem;
+  margin-top: 0;
+}
+
+.navActive {
+  color: var(--pallette-five);
+}
+
+header {
+  background: white;
+}
+
+/* header and nav section  */
+.porfolio-title {
+  color: #bc6c25;
+};
+
+nav {
+  background-color: white;
+}
+nav a {
+  color: var(--nav-font-color) !important;
+  text-decoration: none;
+}
+
+
+nav span {
+  color: var(--nav-font-color)
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.mx-1 {
+  margin-right: var(--spacing-one);
+  margin-left: var(--spacing-one);
+}
+
+.mx-2 {
+  margin-right: var(--spacing-two);
+  margin-left: var(--spacing-two);
+}
+
+.my-1 {
+  margin-top: var(--spacing-one);
+  margin-bottom: var(--spacing-one);
+}
+
+.px-1 {
+  padding-right: var(--spacing-one);
+  padding-left: var(--spacing-one);
+}
+/* About section  */
+section h2 {
+  color: black
+}
+section p {
+  color: var(--small-font-color);
+}
+
+
+
+
+/* Contact */
+button {
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0.25rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0 1px;
+  background-color: var(--secondary);
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button[disabled] {
+  cursor: default;
+  opacity: 0.8;
+}
+
+form {
+  width: 50%;
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+}
+
+input:focus {
+  border: 1px solid var(--secondary);
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
+}
+
+textarea {
+  width: 600px;
+  height: 120px;
+  border: 3px solid #cccccc;
+  padding: 5px;
+}
+
+.container {
+  width: 85%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+/* portfolio */
+img {
+  max-width: 100%;
+}
+
+.card {
+  width: 25%;
+  text-align: center;
+}
+
+.img-thumbnail {
+  width: auto;
+  height: 300px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.mx-1 {
+  margin-right: var(--spacing-one);
+  margin-left: var(--spacing-one);
+}
+/* Footer */
+footer {
+  color:white;
+  background: #212121;
+  text-align: center;
+}
+
+footer a {
+  color:white;
+  font-size: 14px;
+  cursor: pointer;
+}
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
