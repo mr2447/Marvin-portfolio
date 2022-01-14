@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.47bbd81b.js",
-    "static/js/787.7aa1e942.chunk.js": "/static/js/787.7aa1e942.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.47bbd81b.js.map": "/static/js/main.47bbd81b.js.map",
-    "787.7aa1e942.chunk.js.map": "/static/js/787.7aa1e942.chunk.js.map"
+    "main.css": "/marvin-portfolio/static/css/main.073c9b0a.css",
+    "main.js": "/marvin-portfolio/static/js/main.1ae02240.js",
+    "static/js/787.7aa1e942.chunk.js": "/marvin-portfolio/static/js/787.7aa1e942.chunk.js",
+    "static/media/logo.svg": "/marvin-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/marvin-portfolio/index.html",
+    "main.073c9b0a.css.map": "/marvin-portfolio/static/css/main.073c9b0a.css.map",
+    "main.1ae02240.js.map": "/marvin-portfolio/static/js/main.1ae02240.js.map",
+    "787.7aa1e942.chunk.js.map": "/marvin-portfolio/static/js/787.7aa1e942.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.47bbd81b.js"
+    "static/js/main.1ae02240.js"
   ]
 }
