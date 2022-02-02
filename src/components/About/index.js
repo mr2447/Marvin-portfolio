@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '../../assets/images/self-image.jpg'
 
 function About () {
     return (
@@ -6,7 +7,8 @@ function About () {
     <section id="about-me"> 
         <h2>About Me</h2>
         <img
-            src={`/images/self-image.jpg`}
+            // src={`../../assets/images/self-image.jpg`}
+            src={logo}
             alt="self-portrait"
             className="img-thumbnail mx-1"
         />

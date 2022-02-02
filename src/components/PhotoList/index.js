@@ -54,7 +54,7 @@ function PhotoList() {
                     <div key={photo.filename}>
                     <a href={photo.deploy} target="_blank">
                     <img
-                    src={`/images/${photo.filename}.jpg`}
+                    src={`../../assets/images/${photo.filename}.jpg`}
                     alt={photo.title}
                     className="img-thumbnail mx-1"
                     />
