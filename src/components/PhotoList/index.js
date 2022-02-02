@@ -1,4 +1,5 @@
 import React from 'react'
+// import images from '../../assets/images'
 
 
 function PhotoList() {
@@ -54,7 +55,7 @@ function PhotoList() {
                     <div key={photo.filename}>
                     <a href={photo.deploy} target="_blank">
                     <img
-                    src={`images/${photo.filename}.jpg`}
+                    src={`images/${photos.filename}.jpg`}
                     alt={photo.title}
                     className="img-thumbnail mx-1"
                     />
