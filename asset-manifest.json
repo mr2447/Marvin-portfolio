@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/marvin-portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/marvin-portfolio/static/js/main.55845ca4.js",
+    "main.css": "/marvin-portfolio/static/css/main.2220ec12.css",
+    "main.js": "/marvin-portfolio/static/js/main.20cfa4f8.js",
     "static/js/787.7aa1e942.chunk.js": "/marvin-portfolio/static/js/787.7aa1e942.chunk.js",
+    "static/media/self-image.jpg": "/marvin-portfolio/static/media/self-image.ebd0e282e3b6bc3d866d.jpg",
     "index.html": "/marvin-portfolio/index.html",
-    "main.073c9b0a.css.map": "/marvin-portfolio/static/css/main.073c9b0a.css.map",
-    "main.55845ca4.js.map": "/marvin-portfolio/static/js/main.55845ca4.js.map",
+    "main.2220ec12.css.map": "/marvin-portfolio/static/css/main.2220ec12.css.map",
+    "main.20cfa4f8.js.map": "/marvin-portfolio/static/js/main.20cfa4f8.js.map",
     "787.7aa1e942.chunk.js.map": "/marvin-portfolio/static/js/787.7aa1e942.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.55845ca4.js"
+    "static/css/main.2220ec12.css",
+    "static/js/main.20cfa4f8.js"
   ]
 }
