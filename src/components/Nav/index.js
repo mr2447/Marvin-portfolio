@@ -1,5 +1,5 @@
 import React, { useEffect }from 'react';
-
+import './nav.css'
 function Nav(props) {
     const {
         sections = [],
@@ -19,9 +19,6 @@ function Nav(props) {
         document.title = currentSection.name
     }, [currentSection])
 
-    function categorySelected(name) {
-        console.log(`${name} clicked`)
-    }
     return (
         <header className="flex-row px-1">
             <h2>
@@ -33,7 +30,7 @@ function Nav(props) {
                 <ul className="flex-row">
                     <li className="mx-2">
                         <span href="#about" onClick={() => 
-                           [setContactSelected(false),
+                        [setContactSelected(false),
                             setAboutSelected(true),
                             setPortfolioSelected(false),
                             setResumeSelected(false)
@@ -75,6 +72,7 @@ function Nav(props) {
                 </ul>
             </nav>
         </header>
+        
     )
 }
 

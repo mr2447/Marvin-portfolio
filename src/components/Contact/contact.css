@@ -1,0 +1,53 @@
+/* Contact */
+button {
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 0.25rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 0 1px;
+    background-color: var(--secondary);
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  button[disabled] {
+    cursor: default;
+    opacity: 0.8;
+  }
+  
+  form {
+    width: 50%;
+  }
+  
+  input {
+    font-size: 1rem;
+    padding: 0.25rem;
+    border: 1px solid var(--dark);
+    outline: none;
+    border-radius: 3px;
+    transition: box-shadow 0.2s;
+  }
+  
+  input:focus {
+    border: 1px solid var(--secondary);
+    box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
+  }
+  
+  textarea {
+    width: 600px;
+    height: 120px;
+    border: 3px solid #cccccc;
+    padding: 5px;
+  }
+  
+  .container {
+    width: 85%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }

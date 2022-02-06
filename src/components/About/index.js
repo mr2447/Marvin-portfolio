@@ -1,20 +1,80 @@
 import React from 'react'
-import logo from '../../assets/images/self-image.jpg'
+import selfImage from '../../assets/images/self-image.jpg'
+import meCoding from '../../assets/images/me-coding.jpg'
+import './about.css'
 
 function About () {
     return (
-    //about me section
-    <section id="about-me"> 
-        <h2>About Me</h2>
-        <img
-            // src={`../../assets/images/self-image.jpg`}
-            src={logo}
-            alt="self-portrait"
-            className="img-thumbnail mx-1"
-        />
-        <p> Marvin obtained a Bachelor of Music degree at the University of Southern California while pursuing a pre-med track. He then completed a Master of Music degree at Yale University, where he received the Stephen & Denise Adams scholarship, the Charles Ives scholarship and the Stephen & Denis Adams Fellowship. Marvin believes that no studies should exist in a vacuum and therefore, by immersing one-self in other professions we are able to put knowledge into context and give meaning to the things we do and the decisions we make. He is currently taking an online Web developer course at Columbia University while teaching guitar lessons online. He is currently living in New York with his girlfriend and two Dalmatians while staying in close contact with his guitar professor. 
-        </p> 
-    </section>
+    <div>
+       <div className="flex-grid">
+           <div className="col-1 welcomeStatement">
+               <h1 >Welcome, 
+                   <br/>I'm Marvin,
+                   <br/>web developer.</h1>
+
+           </div>
+           <div className="col-2">
+                <img
+                    src={meCoding}
+                    alt="me at laptop"
+                    className="welcomeImage"
+                />
+           </div>
+       </div>
+
+       <div className="flex-grid">
+           <div className="col-1">
+                <img
+                    src={selfImage}
+                    alt="self-portrait"
+                    className="portraitImage"
+                />
+           </div>
+           <div className="col-2 aboutMeContainer">
+                    <div className="descriptionTitle">
+                        <h2>About Me</h2>
+                    </div>
+                    <div className="descriptionParagraph">
+                        <p>Recent full-scholarship Yale University graduate and full stack developer with a certificate in full stack development from Columbia University. Strength in meeting deadlines, creativity, and teamwork over Github. Passionate about approaching web applications from different angles and collaborating with others to create responsive and meaningful web applications. With each project, my aim is to best engage my audience by studiously finding creative ways to solve problems about app functionalities, with a focus on logical user experience. I worked on a team of two to develop a single-page MERN e-commerce app that helps local guitar store owners to manage their sales, inventory and allows customers to browse and purchase. I am excited to leverage my skills as part of a fast-paced, quality-driven team to build better experiences on the web.</p>
+                    </div>
+                    <div className="about-button">
+                        <a href="https://github.com/mr2447" target="_blank"> My GitHub</a>
+                    </div>
+           </div>
+       </div>
+
+
+    {/* <section>
+        <div className="welcomeContainer">
+            <div className="welcomeStatement">
+                <h1>Welcome</h1>
+            </div>
+            <img
+                src={meCoding}
+                alt="me at laptop"
+                className="welcomeImage"
+            />
+        </div>
+        <div className="imageandDescriptionContainer">
+            <img
+                src={selfImage}
+                alt="self-portrait"
+                className="portraitImage"
+            />
+            <div className="descriptionContainer">
+                <div className="descriptionTitle">
+                    <h3>About Me</h3>
+                </div>
+                <div className="descriptionParagraph">
+                    <p>Recent full-scholarship Yale University graduate and full stack developer with a certificate in full stack development from Columbia University. Strength in meeting deadlines, creativity, and teamwork over Github. Passionate about approaching web applications from different angles and collaborating with others to create responsive and meaningful web applications. With each project, my aim is to best engage my audience by studiously finding creative ways to solve problems about app functionalities, with a focus on logical user experience. I worked on a team of two to develop a single-page MERN e-commerce app that helps local guitar store owners to manage their sales, inventory and allows customers to browse and purchase. I am excited to leverage my skills as part of a fast-paced, quality-driven team to build better experiences on the web.</p>
+                </div>
+                <div className="about-button">
+                    <a>Github Repo</a>
+                </div>
+            </div>
+        </div>
+    </section> */}
+    </div>
     );
 }
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import PhotoList from '../PhotoList';
+import './portfolio.css'
 
 
 

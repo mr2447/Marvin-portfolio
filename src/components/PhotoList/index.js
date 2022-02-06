@@ -5,8 +5,18 @@ import weather from '../../assets/images/weather-dashboard.jpg'
 import team from '../../assets/images/team-generator.jpg'
 import run from '../../assets/images/run-buddy.jpg'
 import lyza from '../../assets/images/lyza-portfolio.jpg'
+import guitarShop from '../../assets/images/guitar-shop.jpg'
 
 function PhotoList() {
+    const featurePhoto = [
+        {
+            title: "guitar-shop",
+            filename: guitarShop,
+            description: "An e-commerce app that allows users to buy and sell guitars.",
+            github: ' https://github.com/mr2447/guitar-shop',
+            deploy: ' https://pacific-fjord-62324.herokuapp.com/' 
+        }
+    ]
 
     const photos = [
         {
@@ -50,28 +60,47 @@ function PhotoList() {
             description: "Lyza's photography portfolio.",
             github: 'https://github.com/mr2447/lyza-portfolio',
             deploy: 'https://mr2447.github.io/lyza-portfolio/' 
-        }
+        },
     ]
     return (
-        <div className="flex-row">
+        <div>
+            {/* Featured Project */}
+            <div className='feature-project'>
+                <a href={featurePhoto[0].deploy} target="_blank">
+                    <img
+                        src={featurePhoto[0].filename}
+                        alt={featurePhoto[0].title}
+                    />
+                </a>
+                <div className="feature-project-description">
+                    <h2>The Month's Featured App</h2>
+                    <h3>Guitar Shop</h3>
+                    <p>{featurePhoto[0].description}</p> 
+                </div>
+                <div className="feature-buttons">
+                    <a href={featurePhoto[0].github} target="_blank"> Github Repo</a>
+                    <a href={featurePhoto[0].deploy} target="_blank"> Discover</a>
+                </div>
+            </div>
+            
+            {/* Projects */}
+            <div className="card-container">
             {photos.map((photo)=> { 
                 return (
-                    <div className="image-container" key={photo.filename}>
+                    <div className="project-card" key={photo.filename}>
                     <a href={photo.deploy} target="_blank">
-                    <img
-                    src={photo.filename}
-                    alt={photo.title}
-                    className="img-thumbnail mx-1"
-                    />
+                        <img
+                            src={photo.filename}
+                            alt={photo.title}
+
+                        />
                     </a>
                     <h3>{photo.title}</h3>
-                    <br/>
                     <span>{photo.description} <a href={photo.github} target="_blank"> Github Repo</a></span>
-                    <br/>
-                    <br/>
                     </div>
                 );
             })} 
+            </div>
         </div>
     )
 }

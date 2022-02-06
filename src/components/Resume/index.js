@@ -1,4 +1,5 @@
 import React from 'react';
+import './resume.css'
 
 function Resume ({currentSection}) {
     return(
@@ -6,7 +7,14 @@ function Resume ({currentSection}) {
         <p>Download my
         <a href="./images/coding-resume.pdf" download> Resume.</a>
         </p>
-        <section>
+        <section className="sectionResume">
+            <div className="introResume">
+            <h2>Marvin Ren</h2>
+            <br></br>
+            <h3>TECHNICAL SKILLS</h3>
+            <p>JavaScript ES6+, CSS3, HTML5, SQL, NoSQL, GitHub, MongoDB, MySQL, Express, React, Node, Handlebars, jQuery, Bootstrap, Materialize, Cloudinary </p>
+            </div>
+
             <h3>
                 Front-end Proficiencies
             </h3>

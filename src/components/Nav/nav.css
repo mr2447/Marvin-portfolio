@@ -1,0 +1,29 @@
+/* HEADER */
+header {
+  background: white;
+}
+
+.porfolio-title {
+    color: var(--pallette-two);
+};
+
+/* NAVIGATION BAR */
+nav a {
+  text-decoration: none;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+    margin: 1.3rem 0 0 0;
+    font-size: 1rem
+}
+
+.navActive {
+    color: var(--pallette-two);
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,68 @@
+/*GRID SECTION*/
+.flex-grid {
+  display: flex;
+}
+
+.col-1 {
+  width: 50%;
+}
+
+.col-2 {
+  width: 50%;
+}
+
+/* WELCOME SECTION*/
+.welcomeStatement {
+  color: var(--small-font-color);
+  text-align: left;
+  padding: 15vw;
+}
+
+.welcomeStatement h1 {
+  font-size: 3rem;
+}
+
+.welcomeImage{
+display: block;
+width: 100%;
+height: 100%
+}
+
+/* ABOUT SECTION */
+.portraitImage {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+}
+
+.aboutMeContainer {
+  text-align: center;
+  padding: 15vw 5vw;
+}
+.descriptionTitle h2{
+  display: block;
+  font-size: 3.4rem;
+  padding: 1rem 
+}
+
+.descriptionParagraph {
+  display: block;
+  padding: 0 4vw 1vw 4vw;
+  font-family: 'Avenir', 'Helvetica', 'Clear Sans', 'Sans-serif';
+  font-weight: lighter;
+}
+
+.about-button {
+  display: flex;
+  margin: 0rem 1rem 1rem 1rem;
+  justify-content: center;
+}
+
+.about-button a {
+  border: solid 2px  var(--pallette-five);
+  margin: 1rem 1rem 0 1rem;
+  padding: 0.5rem 3rem;
+  font-size: 0.8vw;
+  color: var(--small-font-color);
+}
