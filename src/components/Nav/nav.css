@@ -58,9 +58,6 @@ li {
 .dark-mode a {
   color: var(--pallette-six);
 }
-.dark-mode li {
-  color: var(--pallette-six);
-}
 .dark-mode img {
   filter: grayscale(100%);
 }
