@@ -3,6 +3,11 @@ header {
   background: white;
 }
 
+.spacer {
+  /* border: 1px solid orange; */
+  flex: 1;
+}
+
 .porfolio-title {
     color: var(--pallette-two);
 };
@@ -26,4 +31,36 @@ li {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+}
+
+/* TOGGLE DARK/LIGHT MODE */
+
+.toggle-container {
+  /* padding: 1rem; */
+  margin: 1.3rem 1rem 0 0;
+  color: var(--small-font-color);
+  /* border: 2px solid green; */
+}
+
+.dark-mode {
+  transition: 0.3s;
+  background-color: black;
+  color: var(--pallette-six);
+}
+
+.dark-mode h1 {
+  color: var(--pallette-six);
+}
+
+.dark-mode h2 {
+  color: var(--pallette-six);
+}
+.dark-mode a {
+  color: var(--pallette-six);
+}
+.dark-mode li {
+  color: var(--pallette-six);
+}
+.dark-mode img {
+  filter: grayscale(100%);
 }

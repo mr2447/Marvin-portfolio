@@ -1,37 +1,47 @@
 /*GRID SECTION*/
 .flex-grid {
   display: flex;
+  position: relative;
+  /* border: 2px solid  blue; */
+  object-fit: fill;
 }
 
 .col-1 {
   width: 50%;
+  height: auto;
 }
 
 .col-2 {
   width: 50%;
+  height: auto;
 }
 
 /* WELCOME SECTION*/
 .welcomeStatement {
   color: var(--small-font-color);
   text-align: left;
-  padding: 15vw;
+  padding: 27vw 15vw 0vw 5vw;
+  /* border: 2px solid  black; */
 }
 
 .welcomeStatement h1 {
   font-size: 3rem;
 }
 
+.welcomeImageContainer{
+  /* adust top padding to fit different size images */
+  padding: 16.9rem 0 0 0
+}
 .welcomeImage{
-display: block;
-width: 100%;
-height: 100%
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 /* ABOUT SECTION */
 .portraitImage {
   width: 100%;
-  height: 100%;
+  height: auto;
   display: block;
   position: relative;
 }
@@ -59,10 +69,17 @@ height: 100%
   justify-content: center;
 }
 
+.about-button a:hover {
+  background-color: var(--pallette-five);
+  color: white;
+  transition: 0.4s
+}
+
 .about-button a {
   border: solid 2px  var(--pallette-five);
   margin: 1rem 1rem 0 1rem;
   padding: 0.5rem 3rem;
   font-size: 0.8vw;
   color: var(--small-font-color);
+  transition: 0.3s
 }

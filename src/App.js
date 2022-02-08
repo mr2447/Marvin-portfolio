@@ -5,8 +5,8 @@ import Nav from './components/Nav'
 import Portfolio from './components/Portfolio'
 import Resume from './components/Resume'
 
-
 function App() {
+// USE STATE FUNCTIONS 
   const [sections] =useState([
     {
       name: 'Portfolio',
@@ -14,13 +14,14 @@ function App() {
     {
       name: 'Resume'
     }
-]);
+  ]);
 
   const [currentSection, setCurrentSection] = useState(sections[0]);
   const [contactSelected, setContactSelected] = useState(false)
   const [aboutSelected, setAboutSelected] = useState(true)
   const [portfolioSelected, setPortfolioSelected] = useState(false)
   const [resumeSelected, setResumeSelected] = useState(false)
+  
   return (
     <div className="flex-wrapper">
       <Nav  

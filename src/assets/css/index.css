@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -13,6 +14,7 @@
   --palette-three: #fefae0;
   --pallette-four: #dda15e;
   --pallette-five: #bc6c25;
+  --pallette-six: #708090;
   --small-font-color: #4A4A4A;
 }
 
@@ -21,6 +23,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: var(--palette-three);
+  transition: 0.3s;
   /* font-weight: 600; */
   /* line-height: 1.5; */
   font-size: 18px;
@@ -29,15 +32,6 @@ body {
 
 }
 
-/* main {
-  max-width: 90%; 
-  padding: 50px 30px;
-} */
-
-
-
-
-
 
 h1,
 h2,
@@ -45,10 +39,8 @@ h3,
 h4,
 h5,
 h6 {
-  /* font-family: 'EB Garamond SC', 'EB Garamond'; */
   font-weight: 500;
   margin: 5px 0;
-  
 }
 
 h1 {
