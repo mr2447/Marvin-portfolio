@@ -48,7 +48,7 @@ function App() {
 
      </main>
      <footer>
-     <h2>Created by Marvin Ren with React</h2>
+     <h2>Created by Marvin Ren 2022</h2>
      <ul>
         <li><a href="mailto:marvin.ren@yahoo.com" rel="nofollow">Email</a></li>
         <li><a href="https://www.linkedin.com/in/marvin-ren-b35719105/" rel="nofollow"target="_blank">LinkedIn</a></li>

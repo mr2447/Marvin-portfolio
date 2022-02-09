@@ -1,11 +1,38 @@
-import React, { useState } from 'react'; 
+import React, { useState, useRef} from 'react'; 
 import { validateEmail } from '../../utils/helpers';
 import './contact.css'
+import emailjs from '@emailjs/browser'
+import EmailSent from '../EmailSent'
+
 
 function ContactForm() {
-    const [formState, setFormState] = useState({name: '', email:'', message:''});
+    //show contact form
+    const [contactFormPage, setContactFormPage] =useState(true)
+    // emailJS
+    const [successSubmitPage, setSuccessSubmitPage] = useState(false)
+    const form =useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_pmc9mtf', 'template_91vaxqq', form.current, 'user_3mnEB7KNy2tfpx3Vf8Zi6')
+        .then((result) => {
+            console.log(result.text);
+            setSuccessSubmitPage(true)
+            setContactFormPage(false)
+        }, (error) => {
+            console.log(error.text);
+        });
+    }
+
+    // const resetForm = () => {
+    //     document.querySelector(form).value = formState
+    // }
+    // Form functions
+    const [formState, setFormState] = useState({to_name: '', email:'', message:''});
     const [errorMessage, setErrorMessage] = useState('');
-    const { name, email, message } = formState;
+    const { to_name, email, message } = formState;
+
 
     function handleChange(e) {
         if(e.target.name === 'email')  {
@@ -39,14 +66,18 @@ function ContactForm() {
     function handleSubmit(e) {
         e.preventDefault();
         console.log(formState);
+        sendEmail(e);
+        console.log(e.target)
     }
+
 return (
-    <section>
+    <div>
+    {contactFormPage && (<section>
         <h1 data-testid="h1tag">Contact me</h1>
-        <form id="contact-form" onSubmit={handleSubmit}>
+        <form ref={form} id="contact-form" onSubmit={handleSubmit}>
             <div>
                 <label htmlFor ="name">Name:</label>
-                <input type="text" name="name" defaultValue={name} onBlur={handleChange}/>
+                <input type="text" name="to_name" defaultValue={to_name} onBlur={handleChange}/>
             </div>
             <div>
                 <label htmlFor="email">Email addess:</label>
@@ -57,13 +88,18 @@ return (
                 <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange}/>
             </div>
             {errorMessage && (
-            <div>
-                <p className="error-text">{errorMessage}</p>
-            </div>
+                <div>
+                    <p className="error-text">{errorMessage}</p>
+                </div>
             )}
             <button type="submit" data-testid="button" >Submit</button>
         </form>
-    </section>
+    </section>)}
+    {successSubmitPage && (
+        <EmailSent formState={formState}/>
+    )}
+    </div>
+        
 )
 }
 
