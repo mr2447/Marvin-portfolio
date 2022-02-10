@@ -44,7 +44,7 @@
 }
 
 .contact-form p {
-  font-size: small;
+  font-size: 15px;
 }
 
 .form-grid {
@@ -75,7 +75,13 @@
   margin: 0.5rem;
   text-align: right;
   padding: 0 0.2rem 0 0;
+  
 }
+
+.form-required-info p {
+  font-size: 18px;
+}
+
 /* LAYOUT ENDS */
 
 /* SELECT STARTS */

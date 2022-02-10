@@ -33,6 +33,7 @@ function ContactForm() {
 // FORM FUNCTIONS STARTS
     const [formState, setFormState] = useState({visitor_title: '', first_name: '',last_name:'', email:'', message:''});
     const [errorMessage, setErrorMessage] = useState('');
+    const[requireNotFulfilled, setrequiredNotFulfilled] = useState('')
     const { visitor_title, first_name, last_name, email, message } = formState;
 
 
@@ -69,7 +70,7 @@ function ContactForm() {
     function handleSubmit(e) {
         e.preventDefault();
         if(!formState.visitor_title || !formState.first_name || !formState.last_name || !formState.email || !formState.message) {
-            alert("Please fill in the required '*' information.")
+            setrequiredNotFulfilled("Please fill in the required '*' information.")
         } 
         else {
             console.log(formState);
@@ -144,6 +145,11 @@ return (
                     {errorMessage && (
                         <div className='form-write-area'>
                             <p>{errorMessage}</p>
+                        </div>
+                    )}
+                    {requireNotFulfilled && (
+                        <div className='form-write-area'>
+                            <p>{requireNotFulfilled}</p>
                         </div>
                     )}
                 <div className="contact-form-button-wrapper">
