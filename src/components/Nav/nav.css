@@ -48,6 +48,10 @@ li {
   color: var(--pallette-six);
 }
 
+.dark-mode section {
+  background-color: black;
+}
+
 .dark-mode h1 {
   color: var(--pallette-six);
 }

@@ -69,17 +69,12 @@
   justify-content: center;
 }
 
-.about-button a:hover {
+.about-button button:hover {
   background-color: var(--pallette-five);
   color: white;
-  transition: 0.4s
 }
 
-.about-button a {
-  border: solid 2px  var(--pallette-five);
-  margin: 1rem 1rem 0 1rem;
-  padding: 0.5rem 3rem;
-  font-size: 0.8vw;
+.about-button button {
+  border: solid 2px var(--pallette-five);
   color: var(--small-font-color);
-  transition: 0.3s
 }

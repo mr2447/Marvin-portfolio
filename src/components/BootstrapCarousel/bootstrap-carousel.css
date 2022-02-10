@@ -12,7 +12,7 @@
     object-fit: cover;
     /* Ajust image in the carousel viewport */
     object-position: 0 30%;
-    filter: grayscale(100%);
+    filter: grayscale(45%);
     opacity: 0.4;
     /* border: 4px solid  blue; */
     cursor: pointer;
@@ -26,7 +26,7 @@
 }
 
 .carouselImages:hover {
-    opacity: 0.8;
+    opacity: 0.9;
     transition: 0.4s;
 }
 

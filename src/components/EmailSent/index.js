@@ -2,9 +2,14 @@ import React from 'react';
 
 const EmailSent=(props) => {
     const {formState} = props
-    const senderName = formState.to_name
+    const senderLastName = formState.last_name
+    const senderName = formState.visitor_title.concat(" ", senderLastName)
+    console.log(formState)
     return(
-        <h1>Thank you {senderName}, Email Sent!</h1>
+        <div>
+            <h1>Dear {senderName},</h1>
+            <p> Thank you for your message. I will be in contact as soon as possible.</p>
+        </div>   
     )
 }
 

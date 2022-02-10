@@ -15,6 +15,7 @@
   --pallette-four: #dda15e;
   --pallette-five: #bc6c25;
   --pallette-six: #708090;
+  --pallett-seven: 	#0000CD;
   --small-font-color: #4A4A4A;
 }
 
@@ -71,9 +72,38 @@ p {
   font-size: 1.1rem;
 }
 
+
 a{
   text-decoration: none;
 }
+
+/* All body button general properties START*/
+
+body button {
+  margin: 1rem 1rem 0 1rem;
+  padding: 0.5rem 3rem;
+  font-size: 0.8vw;
+  transition: 0.3s;
+  border-radius: 0;
+
+  /* Button Color Default*/
+  background-color: var(--palette-three);
+  border: solid 2px var(--pallette-five);
+  color: var(--small-font-color);
+}
+
+body button:hover {
+  transition: 0.4s;
+  /* Button Colors  Default*/
+  background-color: var(--pallette-five);
+  color: white;
+}
+
+body button[disabled] {
+  cursor: default;
+  opacity: 0.8;
+}
+/* All body button END */
 
 .space-between {
   justify-content: space-between;
@@ -81,6 +111,24 @@ a{
 
 .flex-end {
   justify-content: flex-end;
+}
+
+/* GRID FORMATTING */
+body .flex-grid {
+  display: flex;
+  position: relative;
+  /* border: 2px solid  blue; */
+  object-fit: fill;
+}
+
+body .col-1 {
+  width: 50%;
+  height: auto;
+}
+
+body .col-2 {
+  width: 50%;
+  height: auto;
 }
 
 .mx-1 {
