@@ -2,8 +2,9 @@
 .carouselContainer {
     width: 100%;
     /* related to the image size in welcomeImageContainer */
-    height: 250px;
+    height: 32.5rem;
     /* border: 2px solid  blue; */
+    overflow: hidden;
 }
   
 .carouselImages {
@@ -11,9 +12,10 @@
     height: 32.5rem;
     object-fit: cover;
     /* Ajust image in the carousel viewport */
-    object-position: 0 30%;
+    /* object-position: 0 30%; */
     filter: grayscale(45%);
-    opacity: 0.4;
+    /* opacity: 0.4; */
+    opacity: 1;
     /* border: 4px solid  blue; */
     cursor: pointer;
     transition: 0.3s;
@@ -25,16 +27,43 @@
     /* border: 2px solid orange */
 }
 
-.carouselImages:hover {
-    opacity: 0.9;
+/* .carouselImages:hover {
+    opacity: 1;
+    transition: 0.4s;
+} */
+
+/* .hoverme:hover ~ .carouselCaption {
+    border: solid 3px  var(--palette-two);
+    background-color: white;
+} */
+
+.carouselCaption {
+    padding: 0;  
+    margin: 1vw 25vw 11.4rem 25vw;
+    border: solid 3px  var(--palette-two);
     transition: 0.4s;
 }
 
-.carouselCaption {
-    margin: 0 25vw 1rem 25vw;
-    padding: 0 0 1rem 0;
-    /* border-bottom: 2px solid  var(--pallette-two); */
+.carouselCaption a {
+    display: flex;
+    padding: 0.6vw 0.4vw 0.6vw 0.4vw;
+    justify-content: center;
+    color: var(--palette-twoa);
+    font-size: 3vw;
+    transition: 0.4s;
 }
+
+/* .carouselCaption:hover {
+    background-color: var(--palette-two);
+    color: white;
+}
+
+.carouselCaption a:hover {
+    color: white;
+} */
+
+
+
 
 .carousel-button {
     display: flex;
@@ -44,16 +73,16 @@
 }
   
 .carousel-button a {
-    border: solid 3px  var(--pallette-two);
+    border: solid 3px  var(--palette-two);
     margin: 1rem 1rem 0 1rem;
     padding: 0.5rem 3rem;
     font-size: 1.5vw;
-    color: var(--pallette-two);
+    color: var(--palette-two);
     transition: 0.3s;
 }
 
 .carousel-button a:hover {
     transition: 0.4s;
-    background:var(--pallette-two);
+    background:var(--palette-two);
     color: white;
 }

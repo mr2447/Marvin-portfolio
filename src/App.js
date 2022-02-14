@@ -5,6 +5,7 @@ import Nav from './components/Nav'
 import Portfolio from './components/Portfolio'
 import Resume from './components/Resume'
 
+
 function App() {
 // USE STATE FUNCTIONS 
   const [sections] =useState([
@@ -51,8 +52,8 @@ function App() {
      <h2>Created by Marvin Ren 2022</h2>
      <ul>
         <li><a href="mailto:marvin.ren@yahoo.com" rel="nofollow">Email</a></li>
-        <li><a href="https://www.linkedin.com/in/marvin-ren-b35719105/" rel="nofollow"target="_blank">LinkedIn</a></li>
-        <li><a href="https://github.com/mr2447" rel="nofollow" target="_blank">Github</a></li>
+        <li><a href="https://www.linkedin.com/in/marvin-ren-b35719105/" rel="nofollow"target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        <li><a href="https://github.com/mr2447" rel="nofollow" target="_blank" rel="noopener noreferrer">Github</a></li>
         <li><a href="https://stackoverflow.com/users/17896057/mrdal?tab=profile"  target="_blank" rel="nofollow">Stack Overflow</a></li>
       </ul>
      </footer>

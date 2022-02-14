@@ -43,6 +43,10 @@
   margin: 1rem 30vw 1rem 30vw;
 }
 
+.contact-form h1 {
+  color: black;
+}
+
 .contact-form p {
   font-size: 15px;
 }
@@ -57,7 +61,7 @@
   overflow: scroll;
 }
 .for-grid-item:hover {
-  border: 2px solid var(--pallette-five);
+  border: 2px solid var(--palette-five);
 }
 
 .form-select-area {
@@ -139,4 +143,12 @@ justify-content: center;
  /* border: 1px solid black; */
 }
 /* SUBMIT BUTTON ENDS */
-  
+
+/* SPACING FOR LOADING AND SUCCESS PAGE STARTS */
+
+.spaceingDiv {
+  padding: 10% 0 10% 0;
+  text-align: center;
+}
+
+/* SPACING FOR LOADING AND SUCCESS PAGE ENDS*/

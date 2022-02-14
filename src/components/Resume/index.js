@@ -1,11 +1,11 @@
 import React from 'react';
 import './resume.css'
-
-function Resume ({currentSection}) {
+import pdf from '../../assets/pdf/coding-resume.pdf'
+function Resume () {
     return(
     <div>
         <p>Download my
-        <a href="./images/coding-resume.pdf" download> Resume.</a>
+        <a href={pdf} download> Resume.</a>
         </p>
         <section className="sectionResume">
             <div className="introResume">

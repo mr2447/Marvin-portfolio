@@ -2,8 +2,12 @@ import React, { useState, useRef} from 'react';
 import { validateEmail } from '../../utils/helpers';
 import './contact.css'
 import emailjs from '@emailjs/browser'
-import EmailSent from '../EmailSent'
+import EmailSentPage from '../EmailSent'
 import forestImage from '../../assets/images/forest-img.jpg'
+
+// IMPORT material-ui backdrop
+import Backdrop from '@mui/material/Backdrop';
+import CircularProgress from '@mui/material/CircularProgress';
 
 
 
@@ -11,22 +15,26 @@ function ContactForm() {
 //SHOW CONTACT FORM
     const [contactFormPage, setContactFormPage] =useState(true)
 // ~~~~~~~~~~~~~~~~~~~~~
-
 // EMAILJS STARTS
-    const [successSubmitPage, setSuccessSubmitPage] = useState(false)
+    const [successSubmitPage, setSuccessSubmitPage] = useState(null)
+    const [emailLoader, setEmailLoader] = useState(false)
+
+
     const form =useRef();
 
     const sendEmail = (e) => {
         e.preventDefault();
-
+       
+        setEmailLoader(true)
         emailjs.sendForm('service_pmc9mtf', 'template_91vaxqq', form.current, 'user_3mnEB7KNy2tfpx3Vf8Zi6')
         .then((result) => {
             console.log(result.text);
-            setSuccessSubmitPage(true)
-            setContactFormPage(false)
+           setSuccessSubmitPage(result.text)
+           setContactFormPage(false)
+           setEmailLoader(false)
         }, (error) => {
             console.log(error.text);
-        });
+        })
     }
 // EMAILJS ENDS
 
@@ -91,7 +99,10 @@ return (
                 </h1>      
             </div>
         </div>
-    {contactFormPage && (
+
+    
+    
+    {!emailLoader && !successSubmitPage && contactFormPage && (
         // USE SECTION TO BE TARGETED BY DARKMODE TOGGLE
         <section className='contactFormContainer'>
             
@@ -156,10 +167,27 @@ return (
                 <button type="submit" data-testid="button" >Submit</button>
                 </div>
             </form>
+
+            
         </section>)
     }
-    {successSubmitPage && (
-        <EmailSent formState={formState}/>
+
+    {emailLoader && !successSubmitPage && (
+        <div className="spaceingDiv"> 
+            <Backdrop
+                sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
+                open
+                >
+                <CircularProgress color="inherit" />
+            </Backdrop>
+        </div>
+        
+    )}
+
+    {!emailLoader && successSubmitPage && !contactFormPage && (
+        <div className="spaceingDiv">
+            <EmailSentPage formState={formState}/>
+        </div>
     )}
     </div>
         

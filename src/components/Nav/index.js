@@ -48,8 +48,8 @@ function Nav(props) {
                 </a>
             </h2>
             <nav>
-                <ul className="flex-row">
-                    <li className="mx-2">
+                <ul className="flex-row ">
+                    <li className={`mx-2 ${!resumeSelected && !portfolioSelected && !contactSelected && aboutSelected && 'navActive'}`}>
                         <span href="#about" onClick={() => 
                         
                         [setContactSelected(false),
@@ -70,7 +70,7 @@ function Nav(props) {
                             ]
                         }>Contact</span>
                     </li>
-                    <li className={`mx-1 ${!contactSelected && !aboutSelected && !resumeSelected && portfolioSelected && 'navActive'}`}>
+                    <li className={`mx-2 ${!contactSelected && !aboutSelected && !resumeSelected && portfolioSelected && 'navActive'}`}>
                         <span onClick={()=> 
                             [
                                 setContactSelected(false),
@@ -80,7 +80,7 @@ function Nav(props) {
                             ]
                         }>Portfolio</span>
                     </li>
-                    <li className={`mx-1 ${!contactSelected && !aboutSelected && !portfolioSelected && resumeSelected && 'navActive'}`}>
+                    <li className={`mx-2 ${!contactSelected && !aboutSelected && !portfolioSelected && resumeSelected && 'navActive'}`}>
                         <span onClick={()=> 
                             [
                                 setContactSelected(false),

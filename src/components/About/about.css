@@ -20,7 +20,7 @@
 .welcomeStatement {
   color: var(--small-font-color);
   text-align: left;
-  padding: 27vw 15vw 0vw 5vw;
+  padding: 12vw 10vw 0vw 10vw;
   /* border: 2px solid  black; */
 }
 
@@ -28,14 +28,11 @@
   font-size: 3rem;
 }
 
-.welcomeImageContainer{
-  /* adust top padding to fit different size images */
-  padding: 16.9rem 0 0 0
-}
 .welcomeImage{
   display: block;
   width: 100%;
   height: auto;
+  filter: grayscale(30%)
 }
 
 /* ABOUT SECTION */
@@ -44,6 +41,7 @@
   height: auto;
   display: block;
   position: relative;
+  filter: grayscale(24%)
 }
 
 .aboutMeContainer {
@@ -53,7 +51,8 @@
 .descriptionTitle h2{
   display: block;
   font-size: 3.4rem;
-  padding: 1rem 
+  padding: 1rem;
+  color: black;
 }
 
 .descriptionParagraph {
@@ -70,11 +69,11 @@
 }
 
 .about-button button:hover {
-  background-color: var(--pallette-five);
+  background-color: var(--palette-five);
   color: white;
 }
 
 .about-button button {
-  border: solid 2px var(--pallette-five);
+  border: solid 2px var(--palette-five);
   color: var(--small-font-color);
 }

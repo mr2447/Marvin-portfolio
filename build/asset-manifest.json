@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/marvin-portfolio/static/css/main.fb0af6a2.css",
-    "main.js": "/marvin-portfolio/static/js/main.89166c8f.js",
+    "main.css": "/marvin-portfolio/static/css/main.740d4820.css",
+    "main.js": "/marvin-portfolio/static/js/main.0c91e20b.js",
     "static/js/787.7aa1e942.chunk.js": "/marvin-portfolio/static/js/787.7aa1e942.chunk.js",
     "static/media/lyza-portfolio.jpg": "/marvin-portfolio/static/media/lyza-portfolio.2cc93f64c60d54d9894e.jpg",
     "static/media/forest-img.jpg": "/marvin-portfolio/static/media/forest-img.fe0311c615068c2dfcff.jpg",
@@ -14,12 +14,12 @@
     "static/media/me-coding.jpg": "/marvin-portfolio/static/media/me-coding.27c1911330e4b607ca1a.jpg",
     "static/media/self-image.jpg": "/marvin-portfolio/static/media/self-image.87fc4b7f0df56c673fec.jpg",
     "index.html": "/marvin-portfolio/index.html",
-    "main.fb0af6a2.css.map": "/marvin-portfolio/static/css/main.fb0af6a2.css.map",
-    "main.89166c8f.js.map": "/marvin-portfolio/static/js/main.89166c8f.js.map",
+    "main.740d4820.css.map": "/marvin-portfolio/static/css/main.740d4820.css.map",
+    "main.0c91e20b.js.map": "/marvin-portfolio/static/js/main.0c91e20b.js.map",
     "787.7aa1e942.chunk.js.map": "/marvin-portfolio/static/js/787.7aa1e942.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb0af6a2.css",
-    "static/js/main.89166c8f.js"
+    "static/css/main.740d4820.css",
+    "static/js/main.0c91e20b.js"
   ]
 }

@@ -37,14 +37,14 @@ function About () {
                 />
            </div>
            <div className="col-2 aboutMeContainer">
-                    <div className="descriptionTitle" id="clickScrolltoAboutMe">
+                    <div className="descriptionTitle" id="/">
                         <h2>About Me</h2>
                     </div>
                     <div className="descriptionParagraph">
-                        <p>Recent full-scholarship Yale University graduate and full stack developer with a certificate in full stack development from Columbia University. Strength in meeting deadlines, creativity, and teamwork over Github. Passionate about approaching web applications from different angles and collaborating with others to create responsive and meaningful web applications. With each project, my aim is to best engage my audience by studiously finding creative ways to solve problems about app functionalities, with a focus on logical user experience. I worked on a team of two to develop a single-page MERN e-commerce app that helps local guitar store owners to manage their sales, inventory and allows customers to browse and purchase. I am excited to leverage my skills as part of a fast-paced, quality-driven team to build better experiences on the web.</p>
+                        <p>Full-scholarship Yale University graduate and full stack developer with a certificate in full stack development from Columbia University. Strength in meeting deadlines, creativity, and teamwork over Github. Passionate about approaching web applications from different angles and collaborating with others to create responsive and meaningful web applications. With each project, my aim is to best engage my audience by studiously finding creative ways to solve problems about app functionalities, with a focus on logical user experience. I worked on a team of two to develop a single-page MERN e-commerce app that helps local guitar store owners to manage their sales, inventory and allows customers to browse and purchase. I am excited to leverage my skills as part of a fast-paced, quality-driven team to build better experiences on the web.</p>
                     </div>
                     <div className="about-button">
-                        <a href="https://github.com/mr2447" target="_blank">
+                        <a href="https://github.com/mr2447" target="_blank" rel="noopener noreferrer">
                             <button>
                                 My GitHub
                             </button>
