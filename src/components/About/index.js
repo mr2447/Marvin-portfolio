@@ -37,7 +37,7 @@ function About () {
                 />
            </div>
            <div className="col-2 aboutMeContainer">
-                    <div className="descriptionTitle" id="/">
+                    <div className="descriptionTitle" id="/marvin-portfolio">
                         <h2>About Me</h2>
                     </div>
                     <div className="descriptionParagraph">

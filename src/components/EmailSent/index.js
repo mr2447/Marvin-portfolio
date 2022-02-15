@@ -13,7 +13,7 @@ const EmailSent=(props) => {
                 <p> Thank you for your message. I will be in contact as soon as possible.</p>
             </div>
             <button>
-                <a href="/">&#8592; Return</a>
+                <a href="/marvin-portfolio">&#8592; Return</a>
             </button>
         </div>
         
