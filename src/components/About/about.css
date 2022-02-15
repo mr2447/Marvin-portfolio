@@ -16,6 +16,23 @@
   height: auto;
 }
 
+body .flex-grid {
+  display: flex;
+  position: relative;
+  /* border: 2px solid  blue; */
+  object-fit: fill;
+}
+
+body .col-1 {
+  width: 50%;
+  height: auto;
+}
+
+body .col-2 {
+  width: 50%;
+  height: auto;
+}
+
 /* WELCOME SECTION*/
 .welcomeStatement {
   color: var(--small-font-color);
@@ -76,4 +93,43 @@
 .about-button button {
   border: solid 2px var(--palette-five);
   color: var(--small-font-color);
+}
+
+/* GRID FORMATTING */
+@media screen and (max-width: 990px) {
+  
+  .flex-grid {
+    flex-wrap: wrap
+  }
+
+  main .col-1 {
+    width: 100%;
+  }
+
+  main .col-2 {
+    width: 100%;
+  }
+
+  .welcomeStatement {
+    color: var(--small-font-color);
+    text-align: center;
+    padding: 12vw 10vw 5vw 10vw;
+    /* border: 2px solid  black; */
+  }
+
+  .welcomeImage{
+    display: block;
+    width: 100%;
+    height: auto;
+    filter: grayscale(30%)
+  }
+  .portraitImage {
+    width: 100%;
+    height: 0;
+    
+  }
+
+  .about-button button {
+    font-size: 1rem;
+  }
 }

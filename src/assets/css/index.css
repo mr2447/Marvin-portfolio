@@ -118,23 +118,8 @@ body button[disabled] {
   justify-content: flex-end;
 }
 
-/* GRID FORMATTING */
-body .flex-grid {
-  display: flex;
-  position: relative;
-  /* border: 2px solid  blue; */
-  object-fit: fill;
-}
 
-body .col-1 {
-  width: 50%;
-  height: auto;
-}
 
-body .col-2 {
-  width: 50%;
-  height: auto;
-}
 
 .mx-1 {
   margin-right: var(--spacing-one);
