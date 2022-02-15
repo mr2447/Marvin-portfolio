@@ -43,7 +43,7 @@ function Nav(props) {
     return (
         <header className="navBarContainer flex-row px-1"> 
             <h2>
-                <a className="porfolio-title" href="/">
+                <a className="porfolio-title">
                     Marvin Ren's Portfolio
                 </a>
             </h2>
