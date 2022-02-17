@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cd80f760034925204a541107cf2e6beb",
+    "revision": "00d1bbc5f024d340ee1c359be75f3460",
     "url": "/marvin-portfolio/index.html"
   },
   {
-    "revision": "cf48ae0a49a8624af1b4",
-    "url": "/marvin-portfolio/static/css/main.b3659295.chunk.css"
+    "revision": "df9462d0990045eb7055",
+    "url": "/marvin-portfolio/static/css/main.5da3327c.chunk.css"
   },
   {
-    "revision": "72931271ddb9c8875244",
-    "url": "/marvin-portfolio/static/js/2.9088897c.chunk.js"
+    "revision": "cb00fcdab9162c0fc513",
+    "url": "/marvin-portfolio/static/js/2.79118672.chunk.js"
   },
   {
     "revision": "5f5a2437a5d1efa8c90937d119e5d662",
-    "url": "/marvin-portfolio/static/js/2.9088897c.chunk.js.LICENSE.txt"
+    "url": "/marvin-portfolio/static/js/2.79118672.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6857c11133fd51abf8bf",
-    "url": "/marvin-portfolio/static/js/3.b479064b.chunk.js"
+    "revision": "d69dcf786467d16c166b",
+    "url": "/marvin-portfolio/static/js/3.947b374c.chunk.js"
   },
   {
-    "revision": "cf48ae0a49a8624af1b4",
-    "url": "/marvin-portfolio/static/js/main.767cedc8.chunk.js"
+    "revision": "df9462d0990045eb7055",
+    "url": "/marvin-portfolio/static/js/main.6bf5c427.chunk.js"
   },
   {
-    "revision": "84019f3cf7380b4a8029",
-    "url": "/marvin-portfolio/static/js/runtime-main.00c986f6.js"
+    "revision": "7b00f20f53262f1a1dc3",
+    "url": "/marvin-portfolio/static/js/runtime-main.5d343764.js"
   },
   {
     "revision": "141cd5f088c7a1204c0a496453e3e8aa",
