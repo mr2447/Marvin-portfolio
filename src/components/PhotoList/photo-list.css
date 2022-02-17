@@ -189,6 +189,7 @@
 
 .descriptionContainer button {
   background-color: var(--pallett-eight);
+  font-size: 1rem;
 }
  /* PROJECT CARDS END */
 
