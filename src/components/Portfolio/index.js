@@ -5,9 +5,10 @@ import PhotoList from '../PhotoList';
 
 
 function Portfolio() {
+
     return(
         <section>
-            <PhotoList>
+            <PhotoList >
             </PhotoList>
         </section>
     );

@@ -109,7 +109,7 @@ input {
   width: 100%
 }
 
-input:focus {
+input:focus{
   border: 1px solid var(--pallett-seven) ;
   box-shadow: 0 0 3px var(--pallett-seven) ;
 

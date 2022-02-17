@@ -6,6 +6,7 @@ import Portfolio from './components/Portfolio'
 import Resume from './components/Resume'
 
 
+
 function App() {
 // USE STATE FUNCTIONS 
   const [sections] =useState([
@@ -22,6 +23,8 @@ function App() {
   const [aboutSelected, setAboutSelected] = useState(true)
   const [portfolioSelected, setPortfolioSelected] = useState(false)
   const [resumeSelected, setResumeSelected] = useState(false)
+
+
   
   return (
     <div className="flex-wrapper">

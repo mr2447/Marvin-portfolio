@@ -187,7 +187,65 @@
   font-size: 1.50rem;
 }
 
-   /* PROJECT CARDS END */
+.descriptionContainer button {
+  background-color: var(--pallett-eight);
+}
+ /* PROJECT CARDS END */
+
+ /* MODAL STARTS */
+ .modal-style {
+  border: 2px solid purple;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: white;
+  padding: 7vw;
+  z-index: 1000;
+  transition: 1s;
+
+  text-align: center;
+ }
+ 
+ .modal-style h1 {
+   color: black;
+   margin: 0 0 2rem 0;
+
+ }
+
+ .modal-style h4 {
+   margin: 1rem;
+ }
+
+ .modal-style p {
+  font-family: 'Avenir', 'Helvetica', 'Clear Sans', 'Sans-serif';
+ }
+
+ .modal-style section {
+   margin-top: 2rem;
+ }
+ .modal-style button {
+   font-size: 1rem; 
+ }
+
+ .modal-style a {
+  color: var(--small-font-color)
+ }
+
+ 
+
+ .modal-overlay {
+   position: fixed;
+   left: 0;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   background-color: rgba(0, 0, 0, 0.7);
+   z-index: 1000;
+   transition: 1s;
+ }
+
+ /* MODAL ENDS */
 
    /* RESPONSIVENESS STARTS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
  
@@ -294,8 +352,8 @@
   @media screen and (min-width: 1024px) {
     .project-card {
       width: calc(33.33% - 1rem);
-      max-height: 357px;
+      max-height: 450px;
+      overflow: scroll;
     }
-
     
   }
