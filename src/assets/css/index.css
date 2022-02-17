@@ -93,14 +93,14 @@ body button {
 
   /* Button Color Default*/
   background-color: var(--palette-three);
-  border: solid 2px var(--palette-five);
+  border: solid 2px var(--palette-two);
   color: var(--small-font-color);
 }
 
 body button:hover {
   transition: 0.4s;
   /* Button Colors  Default*/
-  background-color: var(--palette-five);
+  background-color: var(--palette-two);
   color: white;
 }
 

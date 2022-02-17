@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/marvin-portfolio/static/css/main.5ea4c29f.chunk.css",
-    "main.js": "/marvin-portfolio/static/js/main.ab478088.chunk.js",
-    "main.js.map": "/marvin-portfolio/static/js/main.ab478088.chunk.js.map",
-    "runtime-main.js": "/marvin-portfolio/static/js/runtime-main.c176f3e1.js",
-    "runtime-main.js.map": "/marvin-portfolio/static/js/runtime-main.c176f3e1.js.map",
-    "static/js/2.5f9e0370.chunk.js": "/marvin-portfolio/static/js/2.5f9e0370.chunk.js",
-    "static/js/2.5f9e0370.chunk.js.map": "/marvin-portfolio/static/js/2.5f9e0370.chunk.js.map",
-    "static/js/3.49435f5c.chunk.js": "/marvin-portfolio/static/js/3.49435f5c.chunk.js",
-    "static/js/3.49435f5c.chunk.js.map": "/marvin-portfolio/static/js/3.49435f5c.chunk.js.map",
+    "main.css": "/marvin-portfolio/static/css/main.789bc5a9.chunk.css",
+    "main.js": "/marvin-portfolio/static/js/main.767cedc8.chunk.js",
+    "main.js.map": "/marvin-portfolio/static/js/main.767cedc8.chunk.js.map",
+    "runtime-main.js": "/marvin-portfolio/static/js/runtime-main.00c986f6.js",
+    "runtime-main.js.map": "/marvin-portfolio/static/js/runtime-main.00c986f6.js.map",
+    "static/js/2.9088897c.chunk.js": "/marvin-portfolio/static/js/2.9088897c.chunk.js",
+    "static/js/2.9088897c.chunk.js.map": "/marvin-portfolio/static/js/2.9088897c.chunk.js.map",
+    "static/js/3.b479064b.chunk.js": "/marvin-portfolio/static/js/3.b479064b.chunk.js",
+    "static/js/3.b479064b.chunk.js.map": "/marvin-portfolio/static/js/3.b479064b.chunk.js.map",
     "index.html": "/marvin-portfolio/index.html",
-    "precache-manifest.13a89c4e5e28dff3a533eb52fba5cd23.js": "/marvin-portfolio/precache-manifest.13a89c4e5e28dff3a533eb52fba5cd23.js",
+    "precache-manifest.ba2516d48d9adcdb7523f34c79b12222.js": "/marvin-portfolio/precache-manifest.ba2516d48d9adcdb7523f34c79b12222.js",
     "service-worker.js": "/marvin-portfolio/service-worker.js",
-    "static/css/main.5ea4c29f.chunk.css.map": "/marvin-portfolio/static/css/main.5ea4c29f.chunk.css.map",
-    "static/js/2.5f9e0370.chunk.js.LICENSE.txt": "/marvin-portfolio/static/js/2.5f9e0370.chunk.js.LICENSE.txt",
+    "static/css/main.789bc5a9.chunk.css.map": "/marvin-portfolio/static/css/main.789bc5a9.chunk.css.map",
+    "static/js/2.9088897c.chunk.js.LICENSE.txt": "/marvin-portfolio/static/js/2.9088897c.chunk.js.LICENSE.txt",
     "static/media/coding-resume.pdf": "/marvin-portfolio/static/media/coding-resume.141cd5f0.pdf",
     "static/media/eat-in-peace-poster.jpg": "/marvin-portfolio/static/media/eat-in-peace-poster.6d285363.jpg",
     "static/media/eat-in-peace.jpg": "/marvin-portfolio/static/media/eat-in-peace.d084c9d4.jpg",
@@ -30,9 +30,9 @@
     "static/media/weather-dashboard.jpg": "/marvin-portfolio/static/media/weather-dashboard.42e2c479.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c176f3e1.js",
-    "static/js/2.5f9e0370.chunk.js",
-    "static/css/main.5ea4c29f.chunk.css",
-    "static/js/main.ab478088.chunk.js"
+    "static/js/runtime-main.00c986f6.js",
+    "static/js/2.9088897c.chunk.js",
+    "static/css/main.789bc5a9.chunk.css",
+    "static/js/main.767cedc8.chunk.js"
   ]
 }
