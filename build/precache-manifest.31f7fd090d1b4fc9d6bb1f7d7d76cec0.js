@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b775603d04478369ad3a57586ffaca8c",
+    "revision": "cd80f760034925204a541107cf2e6beb",
     "url": "/marvin-portfolio/index.html"
   },
   {
-    "revision": "690c29f4d0656f8dcab3",
-    "url": "/marvin-portfolio/static/css/main.789bc5a9.chunk.css"
+    "revision": "cf48ae0a49a8624af1b4",
+    "url": "/marvin-portfolio/static/css/main.b3659295.chunk.css"
   },
   {
     "revision": "72931271ddb9c8875244",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/marvin-portfolio/static/js/3.b479064b.chunk.js"
   },
   {
-    "revision": "690c29f4d0656f8dcab3",
+    "revision": "cf48ae0a49a8624af1b4",
     "url": "/marvin-portfolio/static/js/main.767cedc8.chunk.js"
   },
   {

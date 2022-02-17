@@ -1,5 +1,6 @@
 import { toUnitless } from '@mui/material/styles/cssUtils'
 import React from 'react'
+import {GrClose} from 'react-icons/gr'
 // import ReactDom from 'react-dom'
 //  ReactDom.createPortal
 function Modal(props) {
@@ -23,7 +24,7 @@ function Modal(props) {
                  <button><a href={modalInfo.deploy} target="_blank" rel="noopener noreferrer">Go to App</a></button>
              </div>
 
-            <button onClick={handleClose}>close</button>
+            <button onClick={handleClose}>Close <GrClose/></button>
          </section>
           
      </div>

@@ -194,11 +194,8 @@
 
  /* MODAL STARTS */
  .modal-style {
-  border: 2px solid purple;
   position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  
   background-color: white;
   padding: 7vw;
   z-index: 1000;
@@ -226,13 +223,18 @@
  }
  .modal-style button {
    font-size: 1rem; 
+   background-color: white;
+ }
+
+
+ .modal-style a:hover {
+   color: white
  }
 
  .modal-style a {
   color: var(--small-font-color)
  }
 
- 
 
  .modal-overlay {
    position: fixed;
@@ -354,6 +356,12 @@
       width: calc(33.33% - 1rem);
       max-height: 450px;
       overflow: scroll;
+    }
+
+    .modal-style {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
     }
     
   }
