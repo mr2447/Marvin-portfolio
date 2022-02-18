@@ -14,7 +14,10 @@ function PhotoList(props) {
         {
             title: "guitar-shop",
             filename: guitarShop,
-            description: "An e-commerce app that allows users to buy and sell guitars. Built with MERN stack, it allows users to create an account, sign-in, upload products and more",
+            fullDescription: "An e-commerce app that allows users to buy and sell guitars. Built with MERN stack, it allows users to create an account, sign-in, upload products and more",
+            role: 'Backend javaScript and database',
+            tools: 'MnogoDB, ExpressJS, React, NodeJS, cloudinary, axios, RESTful API, CSS, JavaScript, HTML, Heroku, jsonwebtoken.',
+            problems: "When the user uploads a product. Both images and its properties are uploaded, stored, and made retrivable from an online database. Secondly, as a user browsing for products, the filter logic allows users to search products, which is in the form of objects, via its key:value pair.",
             github: ' https://github.com/mr2447/guitar-shop',
             deploy: ' https://pacific-fjord-62324.herokuapp.com/' 
         }
@@ -26,6 +29,7 @@ function PhotoList(props) {
             filename: simpleDoc,
             description: 'Helps manages a small hospital.',
             fullDescription: 'An app that helps manage a small hospital. The hospital staff will be able to login and, depending on the profession, register a patient and automatically send comments to the patient via email. ',
+            challenges: "Creating multiple users and creating customized handlebar conditional funcitons to display different contents and allow different functionalities depending on the status/role of the user logging in.",
             role: 'Back end and Front end',
             tools: 'Express.js, express-handlebars, Handlebars, sequelize, Nodemailer. Node.js, RESTful API, MySQL, Heroku.',
             github: 'https://github.com/mr2447/simple-doc',
@@ -36,16 +40,29 @@ function PhotoList(props) {
             filename: eat,
             description: "Track user's diet based on BMI.",
             fullDescription: "A health app that tracks calories based on the user's body mass index. It searches nearby restaurants and tracks calories consumption based on the menu items the user has chosen.",
+            challenges: "Persistent user selection value over different pages and grabbing the BMI result from the API and perform calculations based on user's selection.",
             tools: "HTML, CSS, JavaScript, CSS Framework Materialize, API Nutritionix v1, Nutritionix v2, API Zip-Codes",
             role: "Back end JavaScript and Front end",
             github: 'https://github.com/mr2447/dreamteam',
             deploy: 'https://mr2447.github.io/dreamteam/'
         },
         {
+            title: "Guitar Shop",
+            filename: guitarShop,
+            description: 'An e-commerce guitar shop.',
+            fullDescription: "An e-commerce app that allows users to buy and sell guitars. Built with MERN stack, it allows users to create an account, sign-in, upload products and more",
+            role: 'Backend javaScript and database',
+            tools: 'MnogoDB, ExpressJS, React, NodeJS, cloudinary, axios, RESTful API, CSS, JavaScript, HTML, Heroku, jsonwebtoken.',
+            challenges: "When the user uploads a product. Both images and its properties are uploaded, stored, and made retrivable from an online database. As a user browsing for products, the filter logic allows users to search products, which is in the form of objects, via its key:value pair.",
+            github: ' https://github.com/mr2447/guitar-shop',
+            deploy: ' https://pacific-fjord-62324.herokuapp.com/' 
+        },
+        {
             title: 'Weather Dashboard',
             filename: weather,
             description: 'Checks weather with third party API.',
             fullDescription: "For traveler to see the weather outlook for multiple cities so that they can plan a trip accordingly. ",
+            challenges: "Javascript logic and storing to localStorage",
             role: "Back end JavaScript and Front end",
             tools: "Html, CSS, JavaScript",
             github: 'https://github.com/mr2447/weather-daashboard',
@@ -56,6 +73,7 @@ function PhotoList(props) {
             filename: team,
             description: 'Generates team profile.',
             fullDescription: "For Managers to generate a webpage that displays his/hers' team basic info So that their emails and Github profiles can be quickly accessed.",
+            challenges: "Javascript logic, storing to localStorage",
             role: "Back end JavaScript and Front end design",
             tools: "Html, CSS, JavaScript",
             github: 'https://github.com/mr2447/team-profile-generator',
@@ -66,6 +84,7 @@ function PhotoList(props) {
             filename:run,
             description: 'A front-end html for small business.',
             fullDescription: "A website that offers fitness training services.",
+            challenges: "First encounter with Html and CSS styling",
             role: "Front end design",
             tools: "Html, CSS",
             github: 'https://mr2447.github.io/run-buddy/',
@@ -76,11 +95,12 @@ function PhotoList(props) {
             filename: lyza,
             description: "Lyza's photography portfolio.",
             fullDescription: "A single-page application for a budding photographer, Lyza called Oh Snap! to provide a simple yet sleek platform for showing off her photography skills.",
+            challenges:"First application with React and deployment to Heroku",
             tools: "HTML, CSS, JavaScript, React",
             role: "Front end",
             github: 'https://github.com/mr2447/lyza-portfolio',
             deploy: 'https://mr2447.github.io/lyza-portfolio/' 
-        },
+        }
     ]
 
     // MODAL

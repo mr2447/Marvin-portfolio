@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/marvin-portfolio/precache-manifest.3363edba3db2a87bf6ae7a9d6b491eaf.js"
+  "/marvin-portfolio/precache-manifest.cfdbcd627e8ece0c3bc6ad6fceebd217.js"
 );
 
 self.addEventListener('message', (event) => {

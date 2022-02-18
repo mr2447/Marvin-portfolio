@@ -12,6 +12,8 @@ function Modal(props) {
          <div>
             <h4>Description:</h4>
             <p>{modalInfo.fullDescription}</p>
+            <h4>Challenges:</h4>
+            <p>{modalInfo.challenges}</p>
             <h4>Tools:</h4>
             <p>{modalInfo.tools}</p>
             <h4>Role:</h4>
