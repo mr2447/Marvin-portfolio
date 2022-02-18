@@ -108,7 +108,7 @@ function PhotoList(props) {
                 <div className="modal-style">
                     <Modal handleClose={handleClose} modalInfo={modalInfo} >
                         This is a modal
-                    </Modal>
+                    </Modal>    
                 </div>
             </div>
             
