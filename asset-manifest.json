@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/marvin-portfolio/static/css/main.228f758e.chunk.css",
-    "main.js": "/marvin-portfolio/static/js/main.6bf5c427.chunk.js",
-    "main.js.map": "/marvin-portfolio/static/js/main.6bf5c427.chunk.js.map",
+    "main.css": "/marvin-portfolio/static/css/main.784ae68c.chunk.css",
+    "main.js": "/marvin-portfolio/static/js/main.342ad84f.chunk.js",
+    "main.js.map": "/marvin-portfolio/static/js/main.342ad84f.chunk.js.map",
     "runtime-main.js": "/marvin-portfolio/static/js/runtime-main.5d343764.js",
     "runtime-main.js.map": "/marvin-portfolio/static/js/runtime-main.5d343764.js.map",
-    "static/js/2.79118672.chunk.js": "/marvin-portfolio/static/js/2.79118672.chunk.js",
-    "static/js/2.79118672.chunk.js.map": "/marvin-portfolio/static/js/2.79118672.chunk.js.map",
+    "static/js/2.59ba5812.chunk.js": "/marvin-portfolio/static/js/2.59ba5812.chunk.js",
+    "static/js/2.59ba5812.chunk.js.map": "/marvin-portfolio/static/js/2.59ba5812.chunk.js.map",
     "static/js/3.947b374c.chunk.js": "/marvin-portfolio/static/js/3.947b374c.chunk.js",
     "static/js/3.947b374c.chunk.js.map": "/marvin-portfolio/static/js/3.947b374c.chunk.js.map",
     "index.html": "/marvin-portfolio/index.html",
-    "precache-manifest.3363edba3db2a87bf6ae7a9d6b491eaf.js": "/marvin-portfolio/precache-manifest.3363edba3db2a87bf6ae7a9d6b491eaf.js",
+    "precache-manifest.bb197570acb52a38eb9c7cd38254a6c4.js": "/marvin-portfolio/precache-manifest.bb197570acb52a38eb9c7cd38254a6c4.js",
     "service-worker.js": "/marvin-portfolio/service-worker.js",
-    "static/css/main.228f758e.chunk.css.map": "/marvin-portfolio/static/css/main.228f758e.chunk.css.map",
-    "static/js/2.79118672.chunk.js.LICENSE.txt": "/marvin-portfolio/static/js/2.79118672.chunk.js.LICENSE.txt",
+    "static/css/main.784ae68c.chunk.css.map": "/marvin-portfolio/static/css/main.784ae68c.chunk.css.map",
+    "static/js/2.59ba5812.chunk.js.LICENSE.txt": "/marvin-portfolio/static/js/2.59ba5812.chunk.js.LICENSE.txt",
     "static/media/coding-resume.pdf": "/marvin-portfolio/static/media/coding-resume.141cd5f0.pdf",
     "static/media/eat-in-peace-poster.jpg": "/marvin-portfolio/static/media/eat-in-peace-poster.6d285363.jpg",
     "static/media/eat-in-peace.jpg": "/marvin-portfolio/static/media/eat-in-peace.d084c9d4.jpg",
@@ -31,8 +31,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5d343764.js",
-    "static/js/2.79118672.chunk.js",
-    "static/css/main.228f758e.chunk.css",
-    "static/js/main.6bf5c427.chunk.js"
+    "static/js/2.59ba5812.chunk.js",
+    "static/css/main.784ae68c.chunk.css",
+    "static/js/main.342ad84f.chunk.js"
   ]
 }
